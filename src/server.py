@@ -38,7 +38,9 @@ async def get_transaction(hash: str) -> str:
         str: Transaction details in the format "Transaction: {transaction}"
     """
     async with AsyncClient(rpc_url) as client:
-        transaction = await client.get_transaction(Signature.from_string(hash))
+        transaction = await client.get_transaction(
+            Signature.from_string(hash), max_supported_transaction_version=0
+        )
         return f"Transaction: {transaction}"
 
 

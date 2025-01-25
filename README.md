@@ -1,4 +1,4 @@
-Model Context Protocol Server for Solana Client
+# Model Context Protocol Server for Solana Client
 
 Installation of server:
 
