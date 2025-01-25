@@ -3,10 +3,9 @@ from mcp.server import FastMCP
 from solana.rpc.async_api import AsyncClient
 from solana.rpc.commitment import Commitment
 from solana.rpc.types import TokenAccountOpts
-from solders.message import Message
+from solders.message import Message  # type: ignore
 from solders.pubkey import Pubkey  # type: ignore
 from solders.signature import Signature  # type: ignore
-from solders.keypair import Keypair
 from solders.system_program import TransferParams, transfer
 
 mcp = FastMCP("Solana Client")
