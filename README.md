@@ -1,5 +1,15 @@
 # Model Context Protocol Server for Solana Client
 
+[![smithery badge](https://smithery.ai/badge/@tywenk/mcp-solana)](https://smithery.ai/server/@tywenk/mcp-solana)
+
+### Installing via Smithery
+
+To install mcp-solana for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@tywenk/mcp-solana):
+
+```bash
+npx -y @smithery/cli install @tywenk/mcp-solana --client claude
+```
+
 Installation of server:
 
 ```sh
